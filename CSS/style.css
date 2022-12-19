@@ -5,13 +5,16 @@
 }
 
 .navbar {
-    background-image: url(z.avif);
+    background-image: url(../assets/z.avif);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: cover;
 }
 
 .nav {
     display: flex;
     justify-content: space-evenly;
-    background-image: url(z.avif);
+    /* background-image: url(../assets/z.avif); */
 }
 
 .rightNav {
